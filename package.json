@@ -9,10 +9,22 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
 	},
+	"dependencies": {
+		"@selemondev/svelte-marquee": "^0.0.2",
+		"autoprefixer": "^10.4.20",
+		"katex": "^0.16.11",
+		"knuth-shuffle-seeded": "^1.0.6",
+		"postcss": "^8.4.49",
+		"svelte-typewriter": "^3.2.3",
+		"tailwindcss": "^3.4.15",
+		"tailwindcss-animate": "^1.0.7"
+	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^4.0.0",
+		"@types/katex": "^0.16.7",
+		"@types/knuth-shuffle-seeded": "^1.0.2",
 		"svelte": "^5.0.0",
 		"svelte-check": "^4.0.0",
 		"typescript": "^5.0.0",
