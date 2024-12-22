@@ -37,7 +37,7 @@
                 <h1 class="font-pt font-bold italic" in:fly={{duration: 850, y: -25, delay: 500}}>Пришло время</h1>
                 <h1 in:fly={{duration: 850, y: 25, delay: 850}} class="flex gap-8 w-[20ch] h-[1.5ch]">сменить <Typewriter delay={1500} interval={30}><i class="font-mono after:!hidden">zftsh.online</i></Typewriter></h1>
 
-                <p class="text-2xl w-[50%]" in:fly={{duration: 750, y: 15, delay: 1950}}>Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста</p>
+                <p class="text-2xl text-center w-[50%]" in:fly={{duration: 750, y: 15, delay: 1950}}><i class="font-mono">OpenZftsh</i> представляет собой открытую альтернативу <i class="font-mono">zftsh.online</i>, способную выполнять все те же функции, но быстрее, эффективнее, и разумнее.</p>
                 <span class="
                     flex gap-8
                     [&>*]:text-2xl [&>*]:py-4 [&>*]:px-8 [&>*]:border-white [&>*]:border-2 [&>*]:rounded-2xl

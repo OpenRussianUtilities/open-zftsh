@@ -35,12 +35,19 @@ const CONSTS = {
         "c=\\sqrt{a^2+b^2-2ab\\cos\\alpha}",
         "\\frac{sin\\alpha}{a}=\\frac{sin\\beta}{b}=\\frac{sin\\gamma}{c}",
         "\\frac{a}{sin\\alpha}=\\frac{b}{sin\\beta}=\\frac{c}{sin\\gamma}=2R",
+        "sec\\alpha=\\frac{1}{cos\\alpha}",
+        "cosec\\alpha=\\frac{1}{sin\\alpha}",
+        "tg\\alpha=\\frac{sin\\alpha}{cos\\alpha}",
+        "ctg\\alpha=\\frac{cos\\alpha}{sin\\alpha}",
         "\\pi\\approx3.14159",
         "\\tau\\approx6.28318",
         "\\tau=2\\pi",
         "e\\approx2.71828",
         "e=\\sum_{n=0}^{\\infty}\\frac{1}{n!}",
         "n!=\\prod_{n=1}^{c}n",
+        "sin^2\\alpha+cos^2\\alpha=1",
+        "sin\\alpha=1-\\sqrt{cos^2\\alpha}",
+        "cos\\alpha=1-\\sqrt{sin^2\\alpha}",
         "\\arcsin(\\sin(\\alpha))=\\alpha",
         "\\arccos(\\cos(\\beta))=\\beta",
         "e^{\\ln x}=x",
@@ -154,7 +161,7 @@ const CONSTS = {
         // Троллинг
         "\\alpha\\beta\\gamma\\prime",
         "\\text{БАН}",
-        "\\text{¯\\_(ツ)_/¯}",
+        // "\\text{¯\\_(ツ)_/¯}",
         "\\text{undefined}"
     ]
 }
